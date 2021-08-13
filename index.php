@@ -101,8 +101,7 @@
                <!--Row-->
                <div class="row">
                   <div class="col-sm-12 text-center mb-100">
-                     <h1 class="title">The restaurant</h1>
-                     <p class="beige">Welcome to Villa Blanche Bistro</p>
+                     <h1 class="title">About Us</h1>
                   </div>
                </div>
                <!--End row-->
@@ -118,24 +117,22 @@
                            <img src="images/img-3.jpg" alt="">
                         </div>
                      </div>
-                     <div class="block-img ">
-                        <div class="background-img">
-                           <img src="images/img-4.jpg" alt="">
-                        </div>
-                     </div>
                   </div>
-                  <div class="col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1  ">
+                  <div class="col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1  ">
                      <div class="block-content">
                         <h2 class="title-medium mb-10 pb-10">
-                           Welcome to Villa Blanche Bistro  <br>the spirit and culture
+                           Welcome to Villa Blanche Bistro
                            <span class="dots"></span> 
                         </h2>
-                        <h4 class="title-small">Everything at Villa Blanche is made with the perfect dose of love!</h4>
-                        <p class="puch-right mb-40">Villa Blanche is a wonderful hideaway to calm your mind, catch up with friends, fill your stomach and never feel alone. Here you will find international glitterati, literati, yogis, travellers, tourists, movie stars and locals, all indulging in the authentic Goa pastime of eating, relaxing and enjoying.</p>
-                        <img class="sing" src="images/img-signature.png" alt="">
+                        <p class="puch-right mb-10">Villa Blanche opened in December 2006 initially as a place for fabulous cakes, cookies and breakfast food. Over the next two years, it slowly evolved into a bistro open for breakfast, brunch, and dinner.</p>               
+                        <p class="puch-right mb-10">Yogini, the creative force behind this charming eatery, first settled in Goa in 2001. By 2003, she was a partner in the popular pizzeria in the Saturday Night Market. After receiving many commendations from friends on her fabulous cakes, the idea of a cafe began to take shape. Soon after that, the Portuguese house where the bistro stands today was bought, and the Villa Blanche <b style="font-size: larger; color:blank;">story</b> was born.</p>               
+                        <p class="puch-right mb-10">For many years, Yogini managed Villa Blanche with her then business partner Marco. Since 2013, Yogini now operates Villa Blanche with her dedicated and well-trained staff from Goa. These are neighbouring village girls who have been taught the nuances of working in a restaurant by Yogini herself - consideration of quality ingredients. They are back every year during the season.</p>               
                      </div>
                   </div>
                </div>
+               <p class="puch-right mb-10">Suppose you are in Goa for vacation and looking for an excellent dining-out place. In that case, Villa Blanche Bistro should be your unrivalled choice. Villa Blanche is a highly eye-pleasing place with an exquisitely delicious menu for breakfast, brunch, and dinner. The place is best known for its specialization in Italian and Continental food and local Goan cuisine. The place has an open-air seating arrangement with comfortable bamboo chairs, which gives the bistro a cosy, light, calm, and airy ambience. Villa Blanche is a very laid back place where you can find tranquillity when exhausted from all the hardcore rave parties. It is one of the few rare places in Goa where you can sit and read the newspaper or a book for comfort reading. You could sit here seeing the day move past you and see the sky changing its colours. Because of this reason, the crowd that gathers here is classy and mostly a group full of affluent people.</p>               
+               <p class="puch-right mb-10">Like previously mentioned, Villa Blanche Bistro has fantastic options for breakfast, lunch, and dinner, including a vegan and a gluten-free menu. This place has always been famous for its mouth-watering desserts and cookies. In addition, Villa Blanche has a chef's special homemade ice cream, which is also available in a vegan variety. This natural, homemade healthy choice of dessert is to die for! Putting the cherry on top, they have a full bar with exotic cocktails like Goan Sunset, Tequila Sunrise, and Hugo pitcher. As for non-alcoholic drinks, they serve delicious mocktails like Virgin Pina Colada and Kokkum Basil Detox. You will find every kind of meat here for the main evening course, from German Beef to Lamb. Especially for seafood lovers, this place is a piece of heaven on earth. There are caterers available for your service. If you wish to devour the mouth-watering food in the comfort of your room or near the seashore, you can do that too with the takeaway facility.</p>               
+
                <!--End row-->
             </div>
             <!--End container-->
@@ -710,29 +707,42 @@
          </section>
          <!--End reservation section-->
          <!--Gallery section-->
-         <section id="gallery" class="gallery overlay">
+       
+         <section id="gallery">
             <!-- As a general rule, include a heading (h1-h6) as a child of each section and article element for screen readers purposes-->
             <h2 class="indent">Gallery</h2>
             <!--Gallery slider-->
-            <div class="gallery-slider slider flexslider">
-               <ul class="slides">
-                  <li>
-                     <div class="background-img zoom">
-                        <img src="images/img-11.jpg" alt="">
+            <div class="container text-center">
+                     <h1>Gallery</h1>
+                     <div class="portfolio-menu">
+                           <ul>
+                           <li class="active" data-filter="*">All</li>
+                           <li data-filter=".design">Design</li>
+                           <li data-filter=".food">Food</li>
+                           <li data-filter=".graphics">Graphics</li>
+                           </ul>
                      </div>
-                  </li>
-                  <li>
-                     <div class="background-img zoom">
-                        <img src="images/img-12.jpg" alt="">
                      </div>
-                  </li>
-                  <li>
-                     <div class="background-img zoom">
-                        <img src="images/img-13.jpg" alt="">
+                     <div class="portfolio-item">
+                     <div class="item design">
+                           <div style="background-image: url(images/img-8.jpg);"></div>
                      </div>
-                  </li>
-               </ul>
-            </div>
+                    
+                     <div class="item food">
+                           <div style="background-image: url(images/img-7.jpg);"></div>
+                     </div>
+                     <div class="item graphics">
+                           <div style="background-image: url(images/img-6.jpg);"></div>
+                     </div>
+                     <div class="item food">
+                           <div style="background-image: url(images/img-5.jpg);"></div>
+                     </div>
+                     <div class="item design">
+                           <div style="background-image: url(images/img-6.jpg);"></div>
+                     </div>
+                     
+                     </div>
+                     </div>
             <!--End gallery slider-->
          </section>
          <!--End gallery section-->
@@ -788,8 +798,92 @@
 	  <script src="js/7461-js-jquery.validate.min.js" type="text/javascript"></script>
 	  <script src="js/9719-js-placeholders.min.js" type="text/javascript"></script>
       <script src="js/789-js-script.js" type="text/javascript"></script>
+      <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js" type="text/javascript"></script>
       
       <!-- Google analytics -->
       <!-- End google analytics -->
    </body>
 </html>
+<script>
+$(document).ready(function(){
+  $('.portfolio-item').isotope(function(){
+      itemSelector:'.item'
+    });
+
+
+
+  $('.portfolio-menu ul li').click(function(){
+    $('.portfolio-menu ul li').removeClass('active');
+    $(this).addClass('active');
+
+
+    var selector = $(this).attr('data-filter');
+      $('.portfolio-item').isotope({
+        filter: selector
+      })
+      return false;
+  });
+});
+</script>
+<style>
+ .portfolio-menu {
+    text-align: center;
+    margin: 30px auto;
+ }
+
+.portfolio-menu ul li {
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+    padding: 10px 15px;
+    border: 1px solid #a68b7c;
+    cursor: pointer;
+    transition: all .5 ease;
+}
+
+.portfolio-menu ul {
+    padding:0;
+}
+
+.portfolio-menu ul li:hover {
+    background: #a68b7c;
+    color: #fff;
+}
+
+.portfolio-menu ul li.active {
+    background:  #a68b7c;
+    color: #fff;
+}
+
+.portfolio-item {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.portfolio-item .item {
+    width: 33.3%;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.portfolio-item .item div {
+    height: 280px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolio-item .item {
+    width: 50%;
+    padding:0 15px;
+}
+}
+
+@media screen and (max-width: 640px) {
+  .portfolio-item .item {
+    width: 100%;
+}
+}
+</style>
