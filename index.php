@@ -711,7 +711,7 @@
             <h2 class="indent">Gallery</h2>
             <!--Gallery slider-->
             <div class="container text-center">
-                     <h1>Gallery</h1>
+                     <h1 class="title">Gallery</h1>
                      <div class="portfolio-menu">
                            <ul>
                            <li class="active" data-filter="*">All</li>
