@@ -77,11 +77,10 @@
   
             <?php  
             require('db_config.php');  
+
             $sql = "SELECT * FROM image_gallery";  
-            $images = $mysqli->query($sql);  
-  
+            $images = $mysqli->query($sql); 
             while($image = $images->fetch_assoc()){  
-  
             ?>  
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>  
                     <a class="thumbnail fancybox" rel="ligthbox" href="/uploads/<?php echo $image['image'] ?>">  

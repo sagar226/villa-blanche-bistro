@@ -711,36 +711,46 @@
             <h2 class="indent">Gallery</h2>
             <!--Gallery slider-->
             <div class="container text-center">
+                  <?php  
+                     require('db_config.php');  
+         
+                     $sql = "SELECT * FROM image_gallery";  
+                     $images = $mysqli->query($sql);  
+                     $titleArr=[];
+                     $arr=[];
+                     $i=0;
+                     while($image = $images->fetch_assoc()){  
+                        $title= str_replace(' ','_',strtolower($image['title'])) ;
+                        if(!in_array($title,$titleArr)) array_push($titleArr,$title);
+                        $arr[$i]['image'] = $image['image'];
+                        $arr[$i]['title'] = $title;
+                        $i++;
+                     }
+                  ?>
                      <h1 class="title">Gallery</h1>
                      <div class="portfolio-menu">
                            <ul>
                            <li class="active" data-filter="*">All</li>
-                           <li data-filter=".design">Design</li>
-                           <li data-filter=".food">Food</li>
-                           <li data-filter=".graphics">Graphics</li>
+                           <?php 
+                              if(count($titleArr) > 0 ){
+                              foreach($titleArr as $title){
+                           ?>
+                           <li data-filter=".<?= $title ?>"><?=  str_replace('_',' ',ucfirst($title)) ?></li>
+                           <?php }  }?>
                            </ul>
                      </div>
                      </div>
                      <div class="portfolio-item">
-                     <div class="item design">
-                           <div style="background-image: url(images/img-8.jpg);"></div>
+                        <?php 
+                              if(count($arr) > 0 ){
+                              foreach($arr as $data){
+                           ?>
+                        <div class="item <?= $data['title'] ?>">
+                              <div style="background-image: url(uploads/<?= $data['image'] ?>);"></div>
+                        </div>
+                        <?php }  }?>
                      </div>
-                    
-                     <div class="item food">
-                           <div style="background-image: url(images/img-7.jpg);"></div>
-                     </div>
-                     <div class="item graphics">
-                           <div style="background-image: url(images/img-6.jpg);"></div>
-                     </div>
-                     <div class="item food">
-                           <div style="background-image: url(images/img-5.jpg);"></div>
-                     </div>
-                     <div class="item design">
-                           <div style="background-image: url(images/img-6.jpg);"></div>
-                     </div>
-                     
-                     </div>
-                     </div>
+            </div>
             <!--End gallery slider-->
          </section>
          <!--End gallery section-->
