@@ -178,9 +178,9 @@
                      <!--Tabs-->
                      <ul class="block-tabs text-center">
                         <li class="active">Breakfast</li>
-                        <li class="">Lunch</li>
+                        <li class="">Salads</li>
                         <li class="">Dessert</li>
-                        <li class="">Beverages</li>
+                      
                      </ul>
                   </div>
                </div>
@@ -196,286 +196,189 @@
                      <li class="active block-list">
                         <div class="col-sm-5  col-sm-offset-1 text-center">
                            <div class="block-cat">
-                              <h2 class="mb-30">omelettes </h2>
+                              <h2 class="mb-30">Morning Favorites </h2>
                            </div>
                            <div class="block-content pb-25 mb-25">
-                              <h2 class="mb-5 ">Tasty Create an Omelette </h2>
-                              <p>Select Any Four of the Following: Bacon, Ham, Sausage, Cheddar.</p>
-                              <span class="block-price">$14</span> 
+                              <h2 class="mb-5 ">Breakfast Croissant </h2>
+                              <p>Toasted croissant, two scrambled eggs, cheese, bacon</p>
+                              <span class="block-price ">$14</span> 
                               <span class="dots"></span>
                            </div>
                            <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Farmhouse Omelette </h2>
-                              <p>Sauteed Potatoes, Bacon, Grilled Onions, and Melted Cheese Topped.</p>
+                              <h2 class="mb-5 ">Shakshuka Twist (V)</h2>
+                              <p>Poached eggs, tomato sauce, chick peas, sour cream </p>
                               <span class="block-price ">$14</span> 
                               <span class="dots"></span>
                            </div>
                            <div class="block-content">
-                              <h2 class="mb-5 ">Chef's Omelette </h2>
-                              <p>Avocado, Mushrooms, Green Onion, Tomato, Garlic and Shallots.</p>
+                              <h2 class="mb-5 ">Buttermilk pancakes</h2>
+                              <p>Wild berry compote, vanilla cream</p>
                               <span class="block-price ">$14</span> 
                            </div>
                         </div>
-                        <div class="col-sm-5 text-center ">
+
+                        <div class="col-sm-5 text-center">
                            <div class="block-cat">
-                              <h2 class="mb-30">waffle  </h2>
+                              <h2 class="mb-30">Vegan Sunshine </h2>
                            </div>
                            <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Waffle Brunch </h2>
-                              <p>A Small Order of French Toast, Bacon and Strawberries.</p>
+                              <h2 class="mb-5 ">Vegan English Breakfast</h2>
+                              <p>Mushroom, spinach, tofu, hash browns, grilled tomato &choice of bread </p>
+                              
                               <span class="block-price ">$14</span> 
                               <span class="dots"></span>
                            </div>
                            <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Waffles Benedict </h2>
-                              <p>Our Benedict Waffle Topped with Maple-Butter Syrup.</p>
+                              <h2 class="mb-5 ">Oatmeal Porridge (GF) </h2>
+                              <p>Cinnamon apple, brown sugar, Milk choice: almond |soy</p>
+                            
                               <span class="block-price ">$14</span>
                               <span class="dots"></span> 
                            </div>
                            <div class="block-content">
-                              <h2 class="mb-5 ">Belgian Waffle  </h2>
-                              <p>Available with Strawberries, Pecans and Chantilly Cream.</p>
+                              <h2 class="mb-5 ">Masala Pancakes (GF) </h2>
+                              <p>Rice lentil pancakes served with coconut chutney and curry sauce </p>
                               <span class="block-price">$14</span>
                            </div>
                         </div>
                      </li>
                      <!--Menu list-->
                      <li class=" block-list">
-                        <div class="col-sm-5  col-sm-offset-1 text-center">
+                        <div class="col-sm-4  text-center">
                            <div class="block-cat">
-                              <h2 class="mb-30">appetizers </h2>
+                              <h2 class="mb-30">Classic </h2>
                            </div>
                            <div class="block-content pb-25 mb-25">
-                              <h2 class="mb-5 ">Crabcakes </h2>
-                              <p>Served with Mustard and Tartar Sauce.</p>
+                              <h2 class="mb-5 ">Caesar Salad Classic </h2>
+                              <p>Romaine, parmesan, boiled egg, crispy bacon 
+                                 Plain/chicken/pork </p>
                               <span class="block-price">$14</span> 
                               <span class="dots"></span>
                            </div>
                            <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Buffalo Wings </h2>
-                              <p>Fried Wings Covered in Hot Sauce and Served with Blue Cheese Dressing.</p>
+                              <h2 class="mb-5 ">Spinach & Kale  </h2>
+                              <p>Dates, feta, pomegranate dressing, candid goan cashews.</p>
                               <span class="block-price ">$14</span> 
                               <span class="dots"></span>
                            </div>
                            <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Quesadilla </h2>
-                              <p>Grilled Flour Tortilla Filled with Melted Cheese, Green Onions.</p>
+                              <h2 class="mb-5 ">Roast Chicken with Apple & Celery </h2>
+                              <p>Baby gem, bacon, croutons, honey mustard dressing .</p>
                               <span class="block-price ">$14</span> 
                               <span class="dots"></span>
                            </div>
                            <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Lettuce Wraps </h2>
-                              <p>Create Your Own Thai Lettuce Rolls! Satay Chicken Strips, Carrots.</p>
+                              <h2 class="mb-5 ">Quinoa Salad</h2>
+                              <p>chick peas, spinach, roasted pumpkin, baby spinach, 
+                                 feta cheese and chicken.</p>
                               <span class="block-price ">$14</span> 
-                              <span class="dots"></span>
+                              
                            </div>
-                           <div class="block-content mb-25">
-                              <h2 class="mb-5 ">Tex Mex Eggrolls </h2>
-                              <p>Spicy Chicken, Corn, Black Beans, Peppers, Onions and Melted.</p>
-                              <span class="block-price ">$14</span> 
-                           </div>
+
+                        </div>
+                        <div class="col-sm-4 text-center ">
                            <div class="block-cat">
-                              <h2 class="mb-30">kids </h2>
+                              <h2 class="mb-30">Flat Breads Social </h2>
                            </div>
                            <div class="block-content pb-25 mb-25">
-                              <h2 class="mb-5 ">Kids' Pasta </h2>
-                              <p>Served with Bowtie Pasta. Choose from Butter and Parmesan.</p>
+                              <h2 class="mb-5 ">VB signature, the Goan way </h2>
+                              <p>      Goan white snapper, cherry tomatoes, fennel, white wine sauce .</p>
                               <span class="block-price">$14</span> 
+                              <span class="dots"></span>
+                           </div>
+                           <div class="block-content pb-25 mb-25">
+                              <h2 class="mb-5 ">Bacon and Burrata  </h2>
+                              <p>Yuzu yoghurt, garlic shrimps, onions.</p>
+                              <span class="block-price ">$14</span> 
+                              <span class="dots"></span>
+                           </div>
+                           <div class="block-content  pb-25 mb-25">
+                              <h2 class="mb-5 ">Sesame Chicken</h2>
+                              <p>    mushrooms, mozzarella, sesame marinated chicken, picked onion.</p>
+                              <span class="block-price ">$14</span> 
                               <span class="dots"></span>
                            </div>
                            <div class="block-content">
-                              <h2 class="mb-5 ">Kids' Desserts </h2>
-                              <p>Choose from Kids' Scoop of Ice Cream, Kids' Mini Hot Fudge.</p>
+                              <h2 class="mb-5 ">Classic Bruschetta</h2>
+                              <p>    mushrooms, mozzarella, sesame marinated chicken, picked onion.</p>
                               <span class="block-price ">$14</span> 
                            </div>
                         </div>
-                        <div class="col-sm-5 text-center ">
+                        <div class="col-sm-4 text-center ">
                            <div class="block-cat">
-                              <h2 class="mb-30">main  </h2>
+                              <h2 class="mb-30">Best Of Villa Blanche </h2>
                            </div>
                            <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Pizza and Salad </h2>
-                              <p>A Smaller Version of Our Pizzas with a Small Green Salad.</p>
+                              <h2 class="mb-5 ">Chicken Pineapple Salad </h2>
+                              <p>Green leaves with juicy chicken cubes.</p>
                               <span class="block-price ">$14</span> 
                               <span class="dots"></span>
                            </div>
                            <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Lunch Pasta </h2>
-                              <p>Choose from Our Selection of Lunch Sized Pastas: Fettuccini Alfredo.</p>
+                              <h2 class="mb-5 ">Lasagna chicken / Spinach  </h2>
+                              <p>Delicious layer of pasta, filling and cheese </p>
+                              <span class="block-price ">$14</span>
+                              <span class="dots"></span> 
+                           </div>
+                           <div class="block-content  pb-25 mb-25">
+                              <h2 class="mb-5 ">Lamb Chops   </h2>
+                              <p>Juicy & tender with red cabbage and potato mash </p>
                               <span class="block-price ">$14</span>
                               <span class="dots"></span> 
                            </div>
                            <div class="block-content mb-25">
-                              <h2 class="mb-5 ">Lunch Salmon  </h2>
-                              <p>Your Choice of: Herb Crusted Filet of Salmon, Miso Salmon.</p>
+                              <h2 class="mb-5 ">German style pork sausages   </h2>
+                              <p>Mustard and potato salad </p>
                               <span class="block-price">$14</span>
                            </div>
-                           <div class="block-cat">
-                              <h2 class="mb-30">pizza  </h2>
-                           </div>
-                           <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Cheese Pizza</h2>
-                              <p>Topped with Fresh Mozzarella, White Cheddar and Fontina Cheeses.</p>
-                              <span class="block-price ">$14</span> 
-                              <span class="dots"></span>
-                           </div>
-                           <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Pepperoni Pizza </h2>
-                              <p>Fresh Mozzarella and Fontina Cheeses and is Topped.</p>
-                              <span class="block-price ">$14</span>
-                              <span class="dots"></span> 
-                           </div>
-                           <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">B.B.Q. Chicken Pizza </h2>
-                              <p>Smoked Gouda, Red Onion and Cilantro.</p>
-                              <span class="block-price ">$14</span>
-                              <span class="dots"></span> 
-                           </div>
-                           <div class="block-content">
-                              <h2 class="mb-5 ">Margherita Pizza  </h2>
-                              <p>Fresh Mozzarella, Basil and Tomato Sauce.</p>
-                              <span class="block-price">$14</span>
-                           </div>
+
                         </div>
                      </li>
                      <!--Menu list-->
                      <li class=" block-list">
                         <div class="col-sm-5  col-sm-offset-1 text-center">
                            <div class="block-cat">
-                              <h2 class="mb-30">cheesecake </h2>
+                              <h2 class="mb-30">Home-made Plated Desserts </h2>
                            </div>
                            <div class="block-content pb-25 mb-25">
-                              <h2 class="mb-5 ">Original </h2>
-                              <p>Our Famous Creamy Cheesecake with a Graham Cracker Crust.</p>
+                              <h2 class="mb-5 ">The Mix berry Yum…  </h2>
+                              <p>Our posh nosh house ice cream sundae .</p>
                               <span class="block-price">$14</span> 
                               <span class="dots"></span>
                            </div>
                            <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Strawberry Cheesecake </h2>
-                              <p>The Original Topped with Glazed Fresh Strawberries.</p>
+                              <h2 class="mb-5 ">Bitter Chocolate American cookie skillet  </h2>
+                              <p>Baked to order, salted caramel ice cream .</p>
                               <span class="block-price ">$14</span> 
                               <span class="dots"></span>
                            </div>
                            <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Lemon Meringue Cheesecake </h2>
-                              <p>Lemon Cream Cheesecake Topped with Layers of Lemon Mousse.</p>
+                              <h2 class="mb-5 ">Orange and pistachio cake  </h2>
+                              <p>Mascarpone cream.</p>
                               <span class="block-price ">$14</span> 
-                              <span class="dots"></span>
-                           </div>
-                           <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Mango Key Lime Cheesecake </h2>
-                              <p>Topped with Mango Mousse on a Vanilla Coconut Macaroon Crust.</p>
-                              <span class="block-price ">$14</span> 
-                              <span class="dots"></span>
-                           </div>
-                           <div class="block-content pb-25  mb-25">
-                              <h2 class="mb-5 ">Tiramisu Cheesecake </h2>
-                              <p>Our Wonderful Cheesecake and Tiramisu Combined into one Dessert.</p>
-                              <span class="block-price ">$14</span> 
-                              <span class="dots"></span>
-                           </div>
-                           <div class="block-content">
-                              <h2 class="mb-5 ">Low Carb Cheesecake </h2>
-                              <p>Smooth and Creamy with a walnut Crust Sweetened with Stevia.</p>
-                              <span class="block-price ">$14</span> 
+                            
                            </div>
                         </div>
                         <div class="col-sm-5 text-center ">
                            <div class="block-cat">
-                              <h2 class="mb-30">ice cream  </h2>
+                              <h2 class="mb-30"></h2>
                            </div>
                            <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Hot Fudge Sundae </h2>
-                              <p>Topped with Whipped Cream and Almonds.</p>
+                              <h2 class="mb-5 ">Warm Chocolate cake </h2>
+                              <p>Gooey center, homemade vanilla ice cream.</p>
                               <span class="block-price ">$14</span> 
                               <span class="dots"></span>
                            </div>
                            <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Chocolate Brownie Sundae </h2>
-                              <p>Our own Fabulous Godiva Chocolate Brownie, Vanilla Ice Cream, Hot Fudge.</p>
+                              <h2 class="mb-5 "> Villa Blanche pull me up Tiramisu </h2>
+                              <p>                    Our house signatures choice of strawberry/classic.</p>
                               <span class="block-price ">$14</span>
-                              <span class="dots"></span> 
+                            
                            </div>
-                           <div class="block-content mb-25">
-                              <h2 class="mb-5 ">Bowl of Ice Cream  </h2>
-                              <p>Two and a half scoops of your choice of Vanilla or Coffee Ice.</p>
-                              <span class="block-price">$14</span>
-                           </div>
-                           <div class="block-cat">
-                              <h2 class="mb-30">specialty</h2>
-                           </div>
-                           <div class="block-content pb-25 mb-25">
-                              <h2 class="mb-5 ">Carrot Cake </h2>
-                              <p>Deliciously Moist Layers of Carrot Cake and Our Famous Cream.</p>
-                              <span class="block-price ">$14</span> 
-                              <span class="dots"></span>
-                           </div>
-                           <div class="block-content">
-                              <h2 class="mb-5 ">Black-Out Cake  </h2>
-                              <p>Our Deepest, Richest Chocolate Cake with Chocolate Chips.</p>
-                              <span class="block-price">$14</span>
-                           </div>
+                       
                         </div>
                      </li>
-                     <!--Menu list-->
-                     <li class="block-list">
-                        <div class="col-sm-5  col-sm-offset-1 text-center">
-                           <div class="block-cat">
-                              <h2 class="mb-30">iced drinks </h2>
-                           </div>
-                           <div class="block-content pb-25 mb-25">
-                              <h2 class="mb-5 ">Strawberry Fruit Smoothie </h2>
-                              <p>Strawberries, Orange and Pineapple Juices, Coconut and Banana.</p>
-                              <span class="block-price">$14</span> 
-                              <span class="dots"></span>
-                           </div>
-                           <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Tropical Smoothie </h2>
-                              <p>Mango, Passion Fruit, Pineapple and Coconut All Blended with Ice.</p>
-                              <span class="block-price ">$14</span> 
-                              <span class="dots"></span>
-                           </div>
-                           <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Frozen Iced Mango </h2>
-                              <p>Mango, Tropical Juices and a Hint of Coconut Blended with Ice and.</p>
-                              <span class="block-price ">$14</span>
-                              <span class="dots"></span> 
-                           </div>
-                           <div class="block-content">
-                              <h2 class="mb-5 ">Peach Smoothie </h2>
-                              <p>Crushed Peaches and Juice All Blended with Ice and Swirled with.</p>
-                              <span class="block-price ">$14</span> 
-                           </div>
-                        </div>
-                        <div class="col-sm-5 text-center ">
-                           <div class="block-cat">
-                              <h2 class="mb-30">hot drinks  </h2>
-                           </div>
-                           <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Caf&eacute; Latte </h2>
-                              <p>Double Espresso, Extra Steamed Milk.</p>
-                              <span class="block-price ">$14</span> 
-                              <span class="dots"></span>
-                           </div>
-                           <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Caf&eacute; Mocha </h2>
-                              <p>Espresso, Chocolate, Steamed Milk, Whipped Cream.</p>
-                              <span class="block-price ">$14</span>
-                              <span class="dots"></span> 
-                           </div>
-                           <div class="block-content  pb-25 mb-25">
-                              <h2 class="mb-5 ">Hot Chocolate </h2>
-                              <p>A huge, steamy serving of real hot chocolate with whipped cream.</p>
-                              <span class="block-price ">$14</span>
-                              <span class="dots"></span> 
-                           </div>
-                           <div class="block-content">
-                              <h2 class="mb-5 ">Double Espresso  </h2>
-                              <p>Enjoy a double shot of espresso.</p>
-                              <span class="block-price">$14</span>
-                           </div>
-                        </div>
-                     </li>
+ 
                   </ul>
                   <!--End tabs-->
                </div>
