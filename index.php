@@ -880,8 +880,13 @@ $(document).ready(function(){
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px;
 }
-
+.portfolio-item .item:hover {
+  box-shadow: 0 0 2px 1px #a68b7c;
+}
 @media screen and (max-width: 1024px) {
   .portfolio-item .item {
     width: 50%;
